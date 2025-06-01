@@ -1,0 +1,144 @@
+/* Основные стили */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
+    line-height: 1.6;
+    background-color: #F8F9FA;
+}
+
+/* Навигационная панель */
+.navbar {
+    background-color: #2C3E50 !important;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+    color: #dfe6e9 !important;
+}
+
+.dropdown-menu {
+    background-color: #2C3E50;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #3498DB !important;
+    color: #fff !important;
+}
+
+/* Видео-блок */
+.hero-video {
+    background: linear-gradient(135deg, #ecf0f1 0%, #bdc3c7 100%);
+    padding: 60px 0;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 95%;
+}
+
+/* Карточки товаров */
+.product-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.badge.bg-success {
+    background-color: #2ECC71;
+}
+
+.badge.bg-danger {
+    background-color: #E74C3C;
+}
+
+.badge.bg-warning {
+    background-color: #F39C12;
+    color: #fff;
+}
+
+/* Кнопки */
+.btn-success {
+    background-color: #2ECC71;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #27AE60;
+}
+
+.btn-outline-light {
+    border-color: #3498DB;
+    color: #3498DB;
+}
+
+.btn-outline-light:hover {
+    background-color: #3498DB;
+    color: white;
+}
+
+/* Отзывы */
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.text-warning {
+    color: #F1C40F !important;
+}
+
+/* Подвал */
+footer {
+    background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
+    color: #ffffff;
+}
+
+.social-links a {
+    color: #ffffff;
+    transition: opacity 0.3s;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* Модальные окна */
+.modal-content {
+    border-radius: 10px;
+    border: none;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .hero-video {
+        padding: 40px 0;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
